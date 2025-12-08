@@ -1,0 +1,5 @@
+1. terjadi kesalahan pada baris 1 form_daftar pada doctype menjadi <!DOCTYPE html>
+2. terjadi kesalahan pada baris ke 13 proses-pendaftaran-2 lupa menambahkan simbol 
+$ menjadi $sekolah = $_POST['sekolah_asal'];
+3. typo pada baris ke 17 proses-pendaftaran-2 value menjadi values
+4. mengganti location pada  baris 24 proses-pendaftaran-2 menjadi form_daftar
