@@ -1,0 +1,21 @@
+body{margin:0;font-family:sans-serif;background:#f4f4f4;}
+nav{display:flex;justify-content:space-between;align-items:center;padding:1em;background:#f5a623;color:white;position:relative;}
+.nav-right{display:flex;align-items:center;gap:10px;}
+.cart-container{position:relative;}
+.cart-icon{cursor:pointer;background:white;color:#f5a623;padding:5px 10px;border-radius:5px;transition:transform 0.2s;}
+.cart-icon.bounce{transform:scale(1.2);}
+.cart-dropdown{display:none;position:absolute;right:0;top:40px;width:250px;background:white;color:#333;padding:10px;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,0.3);z-index:100;}
+.cart-dropdown .cart-item{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;}
+.cart-dropdown img{width:40px;height:40px;object-fit:cover;border-radius:5px;}
+.cart-dropdown button{padding:2px 5px;background:#f5a623;color:white;border:none;border-radius:3px;cursor:pointer;}
+#cart-footer button{width:100%;padding:8px;background:#f5a623;color:white;border:none;border-radius:5px;margin-top:5px;}
+.jumbotron{text-align:center;background:#f5a623;color:white;padding:50px;}
+.kategori{text-align:center;margin:20px 0;}
+.kategori button{padding:10px 20px;margin:0 5px;cursor:pointer;background:#f5a623;color:white;border:none;border-radius:5px;}
+.cards-container{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;}
+.card{background:white;padding:10px;border-radius:10px;text-align:center;width:200px;box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.card img{width:100%;border-radius:10px;}
+.card button{margin-top:10px;padding:8px;background:#f5a623;color:white;border:none;border-radius:5px;cursor:pointer;}
+.qty-controls{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:5px;}
+footer{background:#333;color:white;text-align:center;padding:10px;margin-top:20px;}
+
